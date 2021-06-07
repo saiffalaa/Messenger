@@ -1,0 +1,15 @@
+.Message {
+  margin: 5px;
+  width: fit-content;
+  padding: 5px;
+}
+.right {
+  margin-left: auto;
+  text-align: left !important;
+}
+.User {
+  background-color: blue !important;
+}
+.Guest {
+  background-color: rgb(216, 216, 230) !important;
+}
