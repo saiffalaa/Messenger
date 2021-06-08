@@ -1,7 +1,37 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
 .App {
   text-align: center;
 }
-
+.app__form {
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 95%;
+  background-color: rgb(211, 211, 228);
+  margin: 20px;
+  height: fit-content;
+}
+.app__chat {
+  height: 80vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app__input {
+  flex: 1;
+}
+.app__button {
+  flex: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
